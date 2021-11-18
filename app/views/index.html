@@ -125,7 +125,8 @@
                 <th>Mô Tả</th>                
                 <th>Action</th>
               </thead>
-              <tbody id="tblDanhSachSP"></tbody>
+              <tbody id="tblDanhSachSP">
+              </tbody>
             </table>
             <!-- END TABLE SẢN PHẨM -->
           </div>
@@ -196,6 +197,9 @@
         height: 400px;
         margin: 0 auto;
       }
+      #tblDanhSachSP td img{
+        width: 120px;
+      }
     </style>
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -215,5 +219,10 @@
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/series-label.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="../../assets/js/product.js"></script>
+    <script src="../../assets/js/main.js"></script>
   </body>
 </html>
